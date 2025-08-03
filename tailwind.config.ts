@@ -52,6 +52,12 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				// Iraq 2030 Custom Colors
+				mesopotamian: 'hsl(var(--mesopotamian-blue))',
+				heritage: 'hsl(var(--heritage-gold))',
+				'future-teal': 'hsl(var(--future-teal))',
+				'desert-sand': 'hsl(var(--desert-sand))',
+				'ancient-bronze': 'hsl(var(--ancient-bronze))',
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
