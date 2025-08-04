@@ -48,13 +48,13 @@
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="default" />
     
-    <!-- Structured Data -->
+    <!-- Structured Data - Organization -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "Organization",
       "name": "Company of Us - Iraq 2030",
-      "alternateName": "Iraq 2030",
+      "alternateName": ["Iraq 2030", "Mesopotamia Innovation Hub", "Company of Us"],
       "url": "https://iraq2030.vercel.app",
       "logo": "https://lovable.dev/opengraph-image-p98pqg.png",
       "description": "A comprehensive initiative to transform post-conflict Iraq through community rebuilding, digital governance, ethical finance, and skills development by 2030.",
@@ -64,7 +64,8 @@
       ],
       "areaServed": {
         "@type": "Country",
-        "name": "Iraq"
+        "name": "Iraq",
+        "alternateName": "Republic of Iraq"
       },
       "knowsAbout": [
         "Post-conflict reconstruction",
@@ -74,33 +75,182 @@
         "Community building",
         "Cultural heritage preservation",
         "Youth empowerment",
-        "Anti-corruption technology"
+        "Anti-corruption technology",
+        "Mesopotamian heritage",
+        "Middle East innovation",
+        "Sustainable development"
       ],
       "offers": [
         {
           "@type": "Service",
           "name": "AEGIS-X",
-          "description": "Digital governance platform for anti-corruption and cultural AI"
+          "description": "Digital governance platform for anti-corruption and cultural AI",
+          "category": "Digital Governance"
         },
         {
           "@type": "Service", 
           "name": "Ethiconexus",
-          "description": "Ethical finance and microfinance platform for entrepreneurs"
+          "description": "Ethical finance and microfinance platform for entrepreneurs",
+          "category": "Financial Technology"
         },
         {
           "@type": "Service",
           "name": "Genesis360", 
-          "description": "Skills development and mentorship hubs"
+          "description": "Skills development and mentorship hubs",
+          "category": "Education Technology"
         },
         {
           "@type": "Service",
           "name": "SecureFuture",
-          "description": "Health micro-insurance and family safety net"
+          "description": "Health micro-insurance and family safety net",
+          "category": "Healthcare Technology"
         },
         {
           "@type": "Service",
           "name": "Evergreen",
-          "description": "Digital heritage archive of Mesopotamian culture"
+          "description": "Digital heritage archive of Mesopotamian culture",
+          "category": "Cultural Technology"
+        }
+      ]
+    }
+    </script>
+
+    <!-- Structured Data - Research Project -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ResearchProject",
+      "name": "Iraq 2030: From Mesopotamia to the Future",
+      "description": "A transformative research and implementation project focused on rebuilding Iraq through innovative community-centered approaches, bridging ancient Mesopotamian wisdom with cutting-edge technology.",
+      "url": "https://iraq2030.vercel.app",
+      "startDate": "2024",
+      "endDate": "2030",
+      "funding": {
+        "@type": "MonetaryGrant",
+        "description": "Seeking international partnerships and investment for post-conflict innovation"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Post-conflict reconstruction",
+          "description": "Innovative approaches to rebuilding nations after conflict"
+        },
+        {
+          "@type": "Thing", 
+          "name": "Digital transformation",
+          "description": "Technology-driven solutions for governance and community building"
+        },
+        {
+          "@type": "Thing",
+          "name": "Mesopotamian heritage",
+          "description": "Preserving and leveraging ancient wisdom for modern innovation"
+        }
+      ],
+      "location": {
+        "@type": "Country",
+        "name": "Iraq"
+      }
+    }
+    </script>
+
+    <!-- Structured Data - Innovation -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CreativeWork",
+      "name": "Iraq 2030 Innovation Framework",
+      "description": "A comprehensive framework for post-conflict nation building through community-centered innovation, digital governance, and cultural preservation.",
+      "creator": {
+        "@type": "Organization",
+        "name": "Company of Us - Iraq 2030"
+      },
+      "dateCreated": "2024",
+      "keywords": [
+        "innovation framework",
+        "post-conflict reconstruction", 
+        "digital governance",
+        "community building",
+        "cultural preservation",
+        "sustainable development",
+        "Middle East innovation",
+        "Iraq transformation",
+        "Mesopotamian wisdom",
+        "technology for good"
+      ],
+      "about": [
+        {
+          "@type": "Place",
+          "name": "Iraq",
+          "description": "Focus country for innovation implementation"
+        },
+        {
+          "@type": "Concept",
+          "name": "Community-centered development",
+          "description": "Development approach prioritizing community rebuilding as foundation for individual growth"
+        }
+      ],
+      "audience": [
+        {
+          "@type": "Audience",
+          "name": "International Development Organizations"
+        },
+        {
+          "@type": "Audience", 
+          "name": "Post-conflict Reconstruction Experts"
+        },
+        {
+          "@type": "Audience",
+          "name": "Technology Innovation Investors"
+        },
+        {
+          "@type": "Audience",
+          "name": "Cultural Heritage Preservationists"
+        },
+        {
+          "@type": "Audience",
+          "name": "Iraqi Youth and Entrepreneurs"
+        }
+      ]
+    }
+    </script>
+
+    <!-- Structured Data - Event (Vision Timeline) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "Iraq 2030 Vision Implementation",
+      "description": "Multi-phase implementation of Iraq's transformation from post-conflict recovery to innovation hub",
+      "startDate": "2025",
+      "endDate": "2030",
+      "location": {
+        "@type": "Country",
+        "name": "Iraq"
+      },
+      "organizer": {
+        "@type": "Organization",
+        "name": "Company of Us - Iraq 2030"
+      },
+      "subEvents": [
+        {
+          "@type": "Event",
+          "name": "Phase 1: Trust & Skills Building",
+          "startDate": "2025",
+          "endDate": "2027",
+          "description": "Building foundational trust and developing essential skills across Iraqi communities"
+        },
+        {
+          "@type": "Event",
+          "name": "Phase 2: You Inc in Community",
+          "startDate": "2028", 
+          "endDate": "2030",
+          "description": "Empowering individual entrepreneurship within strong community frameworks"
+        },
+        {
+          "@type": "Event",
+          "name": "Phase 3: Export Innovations",
+          "startDate": "2030",
+          "description": "Sharing Iraq's innovation model and solutions with the global community"
         }
       ]
     }
